@@ -10,20 +10,22 @@
     <link rel="stylesheet" href="main.css" type="text/css">
 </head>
 <body>
-    <h1>My goals for the year</h1>
+    <header>
+        <h1>My goals for the year</h1>
+        <nav aria-label="primary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Learn HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vacation</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <hr>
-    <nav>
-        <ul>
-            <li>
-                <a href="#html">Learn HTML</a>
-            </li>
-            <li>
-                <a href="#vacation">Planning a Vacation</a>
-            </li>
-        </ul>
-    </nav>
-
-    <section id="html">
+    <main>
+    <article id="html">
     <h2>I'm Bolin</h2>
     <p>This is my first web page.</p>
         <img  src="img/html_logo_300x300.png" alt="HTML5 Logo" 
@@ -51,9 +53,9 @@
     </section>
     <hr>
     
-    <section id="vacation">
+    <article id="vacation">
         <h2>I Am Also Planning a Vacation</h2>
-        <p>I have benn working hard and <em>really need a getaway</em>.</p>
+        <p>I have been working hard and <em>really need a getaway</em>.</p>
         <p>I live in <abbr title="Kansas">KS</abbr> so I want visit a beach.</p>
 
         <h3>Place I'd like to Visit</h3>
@@ -69,7 +71,7 @@
             </figure>
         </li>
         <li>
-            <p>I've heard good ghints about going here:</p>
+            <p>I've heard good things about going here:</p>
             <address>
                 Margaritaville Islandd Reserve Riviera Cancun<br>
                 Bahia Petempich Puerto Morelos, Mexico<br>
@@ -97,11 +99,16 @@
             <dd>There are also cold.</dd>
         </dl>
     </section>
+    </main>
     <hr>
-    &lt;&lt;&lt; &copy; <a href="about.html">Bolin Lin</a> &gt;&gt;&gt;
+    <footer>
+    <p>
+        &lt;&lt;&lt; &copy; <a href="about.html">Bolin Lin</a> &gt;&gt;&gt;
+    </p>
     <p>
         <a href="#">Back to Top</a>
     </p>
+    </footer>
     <!-- 
     Link Text Rule #1
         Avoid printing the full web address to the page 
